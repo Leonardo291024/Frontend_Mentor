@@ -1,0 +1,44 @@
+.container-tops{
+    padding: 15px 15px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-tops article{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.container-tops img{
+    width: 40%;
+}
+
+.container-tops div{
+    margin-left: 8px;
+}
+
+.container-tops div h1{
+    color: hsl(233, 8%, 79%);
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.container-tops div h2{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.container-tops div h2:hover{
+    color: hsl(35, 77%, 62%);
+}
+
+@media(min-width: 735px){
+    .container-tops{
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        justify-content: center;
+        gap: 90px;
+    }   
+}

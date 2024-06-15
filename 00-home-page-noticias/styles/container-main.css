@@ -1,0 +1,46 @@
+.container-main{
+    padding: 15px 15px;
+}
+
+.encabezado .title-principal{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.encabezado p{
+    font-size: 15px;
+    margin-bottom: 10px;
+    color:  hsl(236, 13%, 42%);
+}
+
+.encabezado button{
+    padding: 10px 45px;
+    border: none;
+    background-color: hsl(35, 77%, 62%);
+    color: hsl(36, 100%, 99%);
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.encabezado button:hover{
+    background-color: hsl(240, 100%, 5%);
+}
+
+@media(min-width: 735px){
+    .container-main{
+        min-width: 440px;
+        display: grid;
+        grid-template-columns: 60% 40%;
+        gap: 15px;
+    }
+
+    .encabezado{
+        display: grid;
+        align-items: center;
+        grid-auto-rows: 280px;
+        grid-template-columns: 250px 320px;
+    
+    }
+}
