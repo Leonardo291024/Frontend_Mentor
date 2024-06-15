@@ -10,3 +10,8 @@
 - [Age Calculator](https://Leonardo291024.github.io/Frontend_Mentor/01-age-calculator)
 
 ![](./01-age-calculator/images/calculadora-cronologica.png)
+
+
+- [Card Component](https://Leonardo291024.github.io/Frontend_Mentor/02-card-component)
+
+![](./02-card-component/images/article-preview-component.png)
