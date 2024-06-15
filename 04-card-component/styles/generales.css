@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../images/pattern-background-mobile.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Red Hat Display", sans-serif;
+    padding: 20px;
+}
+
+@media(min-width: 640px){
+    body{
+        background-image: url(../images/pattern-background-desktop.svg);
+    }
+}
