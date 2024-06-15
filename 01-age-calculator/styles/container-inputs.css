@@ -1,0 +1,42 @@
+.error{
+    font-size: 9px;
+    font-weight: 400;
+    color: red;
+}
+
+.container-inputs{
+    /*position: relative;*/
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    border-bottom: 1px solid;
+}
+
+.container-inputs div{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-inputs input{
+    text-align: center;
+    line-height: 2;
+    font-size: 20px;
+    width: 60px;
+    height: 45px;
+}
+
+.container-inputs label{
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(0, 1%, 44%);
+}
+
+@media(min-width: 500px){
+    .container-inputs{
+        justify-content: flex-start;
+    }
+
+    .container-inputs div{
+        margin-right: 50px;
+    }
+}

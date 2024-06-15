@@ -1,0 +1,17 @@
+.container-years{
+    margin-top: 30px;
+}
+
+.container-years div{
+    display: flex;
+}
+
+.container-years h3, p{
+    font-size: 40px;
+    font-weight: 700;
+    color: hsl(259, 100%, 65%);
+}
+
+.container-years p{
+   color: hsl(0, 0%, 8%);
+}
