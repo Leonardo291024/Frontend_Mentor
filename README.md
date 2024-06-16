@@ -31,3 +31,8 @@
 - [Link](https://Leonardo291024.github.io/Frontend_Mentor/05-component-3-colunmas)
 
 ![](./05-component-3-colunmas/images/componente-3-columnas.png)
+
+## Componente card calificativo
+- [Link](https://Leonardo291024.github.io/Frontend_Mentor/06-component-card-calificativo)
+
+![](./06-component-card-calificativo/images/ComponenteCalificativo.jpg)
