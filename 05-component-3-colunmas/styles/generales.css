@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--Transparent_white_paragraphs);
+    padding: 18px;
+}
+
+@media(min-width: 740px){
+    body{
+        height: 100vh;
+    }
+}

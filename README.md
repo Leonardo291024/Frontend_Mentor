@@ -26,3 +26,8 @@
 - [Link](https://Leonardo291024.github.io/Frontend_Mentor/04-card-component)
 
 ![](./04-card-component/images/card-order-sumary.png)
+
+## Componente de 3 columnas
+- [Link](https://Leonardo291024.github.io/Frontend_Mentor/05-component-3-colunmas)
+
+![](./05-component-3-colunmas/images/componente-3-columnas.png)
