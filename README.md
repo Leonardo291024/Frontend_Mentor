@@ -51,3 +51,8 @@
 - [Link](https://Leonardo291024.github.io/Frontend_Mentor/09-grid-component)
 
 ![](./09-grid-component/images/componente-grid.png)
+
+## Loops Studio
+- [Link](https://Leonardo291024.github.io/Frontend_Mentor/10-loop-studios)
+
+![](./10-loop-studios/images/loopsStudios.jpg)
