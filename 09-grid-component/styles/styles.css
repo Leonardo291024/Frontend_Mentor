@@ -1,0 +1,119 @@
+:root{
+    /*Primary*/
+    --Cyan: hsl(179, 62%, 43%);
+    --Bright_Yellow: rgb(192, 223, 52);
+
+    /*Neutral*/
+    --Light_Gray: hsl(204, 43%, 93%);
+    --Grayish_Blue: hsl(218, 22%, 67%);
+}
+
+body{
+    font-family: "Karla", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--Light_Gray);
+    padding: 10px;
+    height: 100vh;
+}
+
+.container{
+    max-width: 620px;
+}
+
+.fila-1{
+    background: white;
+    padding: 18px;
+    border-radius: 10px 10px 0 0;
+}
+
+.columna-1 h1{
+    color: var(--Cyan);
+    font-weight: 600;
+}
+
+.columna-1 h2{
+    color: var(--Bright_Yellow);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.columna-1 p{
+    color: var(--Grayish_Blue);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.col-down-1{
+    background: var(--Cyan);
+    padding: 18px;
+    border-radius: 0 0 0 10px;
+}
+
+.col-down-1 h2, p{
+    color: var(--Light_Gray);
+}
+
+.col-down-1 .monthly{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.col-down-1 .price{
+    font-size: 32px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.col-down-1 .price span{
+    font-size: 18px;
+    color: var(--Grayish_Blue);
+}
+
+.col-down-1 .access{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn{
+    background: var(--Bright_Yellow);
+    width: 100%;
+    color: white;
+}
+
+.btn:hover{
+    background: rgb(150, 223, 30);
+}
+
+.col-down-2{
+    background: hsl(179, 62%, 40%);
+    padding: 18px 20px 18px 20px;
+    border-radius: 0 0 10px 0;
+}
+
+.col-down-2 h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--Light_Gray);
+}
+
+.col-down-2 p{
+    color: var(--Light_Gray);
+}
+
+@media (max-width: 766px){
+    body{
+        height: auto;
+    }
+    
+    .col-down-1{
+        border-radius: 0 0 0 0;
+    }  
+    
+    .col-down-2{
+        border-radius: 0 0 10px 10px;
+    }
+}
