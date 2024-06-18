@@ -111,3 +111,8 @@
 - [Link](https://Leonardo291024.github.io/Frontend_Mentor/21-card-product)
 
 ![](./21-card-product/images/tarjeta-vista-previa.png)
+
+## Acordeon de preguntas
+- [Link](https://Leonardo291024.github.io/Frontend_Mentor/22-acordeon-preguntas)
+
+![](./22-acordeon-preguntas/assets/acordeonDePreguntas.jpg)
