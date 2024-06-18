@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    background-image: url(../images/bg-intro-mobile.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: var(--Red);
+    font-family: "Poppins", sans-serif;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.primera-seccion h1{
+    text-align: center;
+    font-size: clamp(24px, 8vw, 52px);
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.primera-seccion p{
+    text-align: center;
+    font-size: clamp(18px, 8vw, 18px);
+    font-weight: 400;
+    color: white;
+}
+
+.segunda-seccion .card{
+    background: var(--Blue);
+    color: white;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto 20px;
+}
+
+.segunda-seccion .card p{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.container-form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    gap: 20px;
+    padding: 15px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin: 0 auto 20px;
+}
+
+.container-input{
+    border: 1px solid;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px 0 15px;
+}
+
+.container-input .icono-error{
+    display: none;
+}
+
+.container-form input{
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+.container-form input::placeholder{
+    font-weight: 600;
+    color: var(--Dark_Blue);
+}
+
+.container-form .error{
+    margin: -10px 10px;
+    padding: 0;
+    color: var(--Red);
+    font-size: 13px;
+    font-weight: 600;
+    display: none;
+}
+
+.container-form .btn{
+    background: var(--Green);
+    border: none;
+}
+
+.container-form .terminos{
+    font-size: 12px;
+    text-align: center;
+    color: var(--Grayish_Blue);
+}
+
+.container-form .terminos b{
+    color: var(--Red);
+}
+
+@media(min-width: 821px){
+    main{
+        height: 100vh;
+        flex-direction: row;
+    }
+}

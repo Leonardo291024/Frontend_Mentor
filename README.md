@@ -91,3 +91,8 @@
 - [Link](https://Leonardo291024.github.io/Frontend_Mentor/17-powered-by-tecnology)
 
 ![](./17-powered-by-tecnology/images/seccion-funcion-4-tarjetas.png)
+
+## Formulario de Registro
+- [Link](https://Leonardo291024.github.io/Frontend_Mentor/18-formulario-reguistro)
+
+![](./18-formulario-reguistro/images/bg-intro-desktop.png)
