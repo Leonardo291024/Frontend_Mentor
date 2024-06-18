@@ -66,3 +66,8 @@
 - [Link](https://Leonardo291024.github.io/Frontend_Mentor/12-card-redes-sociales)
 
 ![](./12-card-redes-sociales/images/socialCard.jpg)
+
+## Profile Card
+- [Link](https://Leonardo291024.github.io/Frontend_Mentor/13-profile-card-component)
+
+![](./13-profile-card-component/images/component-card-profile.png)

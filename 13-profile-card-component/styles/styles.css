@@ -1,0 +1,74 @@
+.card{
+    background: white;
+    border-radius: 10px;
+    position: relative;
+}
+
+.portada img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.img-profile{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-profile img{
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+.container-datos{
+    text-align: center;
+    margin-top: 15%;
+}
+
+.container-datos .name{
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--Very_dark_desaturated_blue);
+}
+
+.container-datos .name span{
+    font-weight: 600;
+    color: var(--Dark_grayish_blue);
+    margin-left: 10px;
+}
+
+.container-datos .country{
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--Dark_grayish_blue);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    padding: 25px;
+    border-top: 1px solid var(--Dark_gray);
+}
+
+footer div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer div h2{
+    font-size: 23px;
+    font-weight: 400px;
+    color: var(--Very_dark_desaturated_blue);
+    margin-bottom: 10px;
+}
+
+footer div p{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--Dark_gray);
+}
