@@ -101,3 +101,8 @@
 - [Link](https://Leonardo291024.github.io/Frontend_Mentor/19-social-proof-section)
 
 ![](./19-social-proof-section/images/seccion-prueba-social.png)
+
+## Tarjeta de Estadisticas
+- [Link](https://Leonardo291024.github.io/Frontend_Mentor/20-tarjeta-estadisticas)
+
+![](./20-tarjeta-estadisticas/images/tarjeta-vista-previa-estadisticas.png)

@@ -1,0 +1,15 @@
+:root{
+    /*PRIMARY*/
+    --Very_dark_blue_main_background: hsl(233, 47%, 7%);
+    --Dark_desaturated_blue_card_background: hsl(244, 38%, 16%);
+    --Soft_violet_accent: hsl(277, 64%, 61%);
+
+    /*NEUTRAL*/
+    --White_main_heading_stats: hsl(0, 0%, 100%);
+    --Slightly_transparent_white_main_paragraph: hsla(0, 0%, 100%, 0.75);
+    --Slightly_transparent_white_stat_headings: hsla(0, 0%, 100%, 0.6);
+
+    /*TYPOGRAHI*/
+    --Lexend: font-family: "Lexend Deca", sans-serif;
+    --Inter: font-family: "Inter", sans-serif;
+}
