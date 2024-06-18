@@ -1,0 +1,151 @@
+.contenedor{
+    background-color: var(--Pale_blue);
+    display: flex;
+    flex-direction: column;
+}
+
+.banner{
+    background: linear-gradient(180deg, hsl(252, 100%, 67%) 0%, hsl(241, 81%, 54%) 100% );
+    padding: 20px;
+    text-align: center;
+    border-radius: 0 0 23px 23px;
+}
+
+.title_result, .resultOf{
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--Light_lavender);
+    margin-bottom: 15px;
+}
+
+.container_result{
+    background: linear-gradient(180deg, hsl(241, 81%, 54%) 50%, hsl(252, 100%, 67%) 100%);
+    box-shadow: 5px 5px 15px hsl(241, 81%, 54%), -5px -5px 15px hsl(252, 100%, 67%);
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.result{
+    font-size: 42px;
+    font-weight: 900;
+    color: var(--Pale_blue);
+}
+
+.title_great{
+    font-size: 23px;
+    font-weight: 600;
+    color: var(--Pale_blue);
+    margin-bottom: 10px;
+}
+
+.text_scored{
+    font-size: 18px;
+    color: var(--Pale_blue);
+    font-weight: 300;
+}
+
+.contenedor-puntos{
+    padding: 10px;
+}
+
+.puntos{
+    margin-top: 10px;
+}
+
+.container-points{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.container-points div:nth-child(1){
+    display: flex;
+    gap: 10px;
+}
+
+.reaction{
+    background-color: hsl(0, 100%, 95%);
+}
+
+.reaction div:nth-child(1) p{
+    color: var(--Light_red);
+    font-weight: 600;
+}
+
+.memory{
+    background-color: hsl(39, 100%, 95%);
+}
+
+.memory div:nth-child(1) p{
+    color: var(--Orangey_yellow);
+    font-weight: 600;
+}
+
+.verbal{
+   background-color: hsl(166, 100%, 95%);
+}
+
+.verbal div:nth-child(1) p{
+    color: var(--Green_teal);
+    font-weight: 600;
+}
+
+.visual{
+    background-color: hsl(234, 85%, 95%);
+}
+
+.visual div:nth-child(1) p{
+    color: var(--Cobalt_blue);
+    font-weight: 600;
+}
+
+.btn-continue{
+    margin-bottom: 20px;
+}
+
+
+.btn-continue button{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--Dark_gray_blue);
+    color: var(--Pale_blue);
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.9s;
+}
+
+.btn-continue button:hover{
+    transition: all 0.9s;
+    background: linear-gradient(180deg, hsl(252, 100%, 67%) 0%, hsl(241, 81%, 54%) 100%);
+}
+
+@media(min-width: 640px){
+    .contenedor{
+        border-radius: 23px;
+        flex-direction: row;
+    }
+
+    .banner{
+        width: 50%;
+        border-radius: 23px 23px 23px 23px;
+    }
+
+    .contenedor-puntos{
+        width: 50%;
+        padding: 30px;
+    }
+}

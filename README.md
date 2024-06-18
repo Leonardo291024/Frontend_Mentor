@@ -81,3 +81,8 @@
 - [Link](https://Leonardo291024.github.io/Frontend_Mentor/15-recetario)
 
 ![](./15-recetario/images/recetario.jpg)
+
+## Component Result Sumary
+- [Link](https://Leonardo291024.github.io/Frontend_Mentor/16-result-sumary-component)
+
+![](./16-result-sumary-component/images/componente-de-resultados.png)
