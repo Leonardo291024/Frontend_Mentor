@@ -95,4 +95,4 @@
 ## Formulario de Registro
 - [Link](https://Leonardo291024.github.io/Frontend_Mentor/18-formulario-reguistro)
 
-![](./18-formulario-reguistro/images/bg-intro-desktop.png)
+![](./18-formulario-reguistro/images/formulario-basico.png)
