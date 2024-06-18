@@ -1,0 +1,12 @@
+:root{
+    /*PRIMARY*/
+    --Desaturated_Red: hsl(0, 36%, 70%);
+    --Soft_Red: hsl(0, 93%, 68%);
+
+    /*NEUTRAL*/
+    --Dark_Grayish_Red: hsl(0, 6%, 24%);
+
+    /*GRADIANTES*/
+    --Linear_135deg_from: hsl(0, 0%, 100%), to hsl(0, 100%, 98%);
+    --Linear_135deg_from: hsl(0, 80%, 86%), to hsl(0, 74%, 74%);
+}
