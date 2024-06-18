@@ -106,3 +106,8 @@
 - [Link](https://Leonardo291024.github.io/Frontend_Mentor/20-tarjeta-estadisticas)
 
 ![](./20-tarjeta-estadisticas/images/tarjeta-vista-previa-estadisticas.png)
+
+## Tarjeta de Producto
+- [Link](https://Leonardo291024.github.io/Frontend_Mentor/21-card-product)
+
+![](./21-card-product/images/tarjeta-vista-previa.png)
