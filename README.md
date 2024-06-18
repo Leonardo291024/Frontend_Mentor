@@ -65,4 +65,4 @@
 ## Social Card
 - [Link](https://Leonardo291024.github.io/Frontend_Mentor/12-card-redes-sociales)
 
-![](./12-card-redes-sociales/images/perfil-img.png)
+![](./12-card-redes-sociales/images/socialCard.jpg)
