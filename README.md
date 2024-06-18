@@ -56,3 +56,8 @@
 - [Link](https://Leonardo291024.github.io/Frontend_Mentor/10-loop-studios)
 
 ![](./10-loop-studios/images/loopsStudios.jpg)
+
+## NFT Card
+- [Link](https://Leonardo291024.github.io/Frontend_Mentor/11-nft-card)
+
+![](./11-nft-card/images/card-nft.png)
