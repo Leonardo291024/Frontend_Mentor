@@ -86,3 +86,8 @@
 - [Link](https://Leonardo291024.github.io/Frontend_Mentor/16-result-sumary-component)
 
 ![](./16-result-sumary-component/images/componente-de-resultados.png)
+
+## Powered by Tecnology
+- [Link](https://Leonardo291024.github.io/Frontend_Mentor/17-powered-by-tecnology)
+
+![](./17-powered-by-tecnology/images/seccion-funcion-4-tarjetas.png)
