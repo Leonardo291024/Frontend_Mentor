@@ -1,0 +1,139 @@
+.container-1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-description h1{
+    font-size: clamp(24px, 8vw, 71px);
+    font-weight: 800;
+    color: var(--Very_Dark_Magenta);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container-description p{
+    font-size: clamp(24px, 8vw, 30px);
+    font-weight: 400;
+    color: var(--Dark_Grayish_Magenta);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container-reviews{
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.container-reviews p{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--Very_Dark_Magenta);
+}
+
+.reviews{
+    width: 100%;
+    padding: 6px;
+    text-align: center;
+    background: var(--Light_Grayish_Magenta);
+    border-radius: 10px;
+}
+
+.stars{
+    margin-bottom: 10px;
+}
+
+.container-2{
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.card-profile{
+    background: var(--Very_Dark_Magenta);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 350px;
+}
+
+.img-profile{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.name{
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--White);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.description{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--White);
+}
+
+.name span{
+    color: var(--Soft_Pink);
+}
+
+.img-profile img{
+    border-radius: 50%;
+}
+
+@media (min-width: 1040px){
+    .container-1{
+        flex-direction: row;
+        gap: 100px;
+    }
+
+    .container-description{
+        width: 50%;
+    }
+
+    .container-description h1{
+        text-align: start;
+    }
+
+    .container-description p{
+        text-align: start;
+    }
+
+    .container-reviews{
+        width: 50%;
+    }
+
+    .container-reviews .reviews:nth-child(2){
+        margin-left: 50px;
+    }
+
+    .container-reviews .reviews:nth-child(3){
+        margin-left: 80px;
+    }
+
+    .container-2{
+        height: 50vh;
+    }
+
+    .container-2 .card-profile:nth-child(2){
+        margin-top: 50px;
+    }
+
+    .container-2 .card-profile:nth-child(3){
+        margin-top: 100px;
+    }
+}

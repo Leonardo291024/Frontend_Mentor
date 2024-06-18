@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "League Spartan", sans-serif;
+}
+
+main{
+    padding: 20px;
+}
+
+@media (min-width: 1040px){
+    body{
+        height: 100vh;
+    }
+}

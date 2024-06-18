@@ -96,3 +96,8 @@
 - [Link](https://Leonardo291024.github.io/Frontend_Mentor/18-formulario-reguistro)
 
 ![](./18-formulario-reguistro/images/formulario-basico.png)
+
+## Social Seccion
+- [Link](https://Leonardo291024.github.io/Frontend_Mentor/19-social-proof-section)
+
+![](./19-social-proof-section/images/seccion-prueba-social.png)
