@@ -61,3 +61,8 @@
 - [Link](https://Leonardo291024.github.io/Frontend_Mentor/11-nft-card)
 
 ![](./11-nft-card/images/card-nft.png)
+
+## Social Card
+- [Link](https://Leonardo291024.github.io/Frontend_Mentor/12-card-redes-sociales)
+
+![](./12-card-redes-sociales/images/perfil-img.png)
