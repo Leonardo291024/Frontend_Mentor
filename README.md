@@ -9,6 +9,13 @@
 
 ## Proyectos:
 
+### Huddle Registro
+- **[Sitio Web](https://Leonardo291024.github.io/Frontend_Mentor/23-huddle-intro)**
+
+- **[Repositorio](https://github.com/Leonardo291024/Frontend_Mentor/tree/main/23-huddle-intro)*
+
+![](./23-huddle-intro/images/huddle-register.png)
+
 ### Home page de Noticias
 - **[Sitio Web](https://Leonardo291024.github.io/Frontend_Mentor/00-home-page-noticias)**
 

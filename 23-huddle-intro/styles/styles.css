@@ -1,0 +1,170 @@
+:root{
+    /*PRIMARY*/
+    --Violet: hsl(257, 40%, 49%);
+    --Sof_Magenta: hsl(300, 69%, 71%);
+
+    /*FUENTES*/
+    --Poppins:  font-family: "Poppins", sans-serif;
+    --Opens: font-family: "Open Sans", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../images/bg-mobile.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--Violet);
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo-container{
+    padding: 20px;
+}
+
+.logo-container img{
+    width: 50%;
+}
+
+.container-image-mockups{
+    width: 100%;
+}
+
+.container-image-mockups img{
+    width: 100%;
+}
+
+.container-descripcion{
+    width: 100%;
+}
+
+.title{
+    font-size: 23px;
+    font-weight: 600;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.descripcion{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.container-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-btn button{
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    color: var(--Violet);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.8s;
+}
+
+.container-btn button:hover{
+    color: white;
+    background-color: var(--Sof_Magenta);
+}
+
+.container-links{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container-links a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.container-links a:hover{
+    border: 1px solid var(--Sof_Magenta);
+}
+
+.container-links a i{
+    color: white;
+}
+
+.container-links a i:hover{
+    color: var(--Sof_Magenta);
+}
+
+footer .container-links{
+    display: none;
+}
+
+@media(min-width: 840px){
+    .logo-container img{
+        width: 20%;
+    }
+
+    main{
+        height: 50vh;
+        gap: 80px;
+    }
+
+    .container-image-mockups{
+        width: 40%;
+    }
+
+    .container-descripcion{
+        width: 50%;
+    }
+
+    .title, .descripcion{
+        text-align: start;
+    }
+
+    .container-btn{
+        justify-content: flex-start;
+    }
+
+    .container-btn button{
+        width: 30%;
+    }
+
+    .container-descripcion .container-links{
+        display: none;
+    }
+
+    footer{
+        padding: 18px;
+    }
+
+    footer .container-links{
+        display: flex;
+        justify-content: flex-end;
+    }
+}
