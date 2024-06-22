@@ -9,7 +9,7 @@
 
 ## Proyectos:
 
-### Huddle Registro
+### Contact Us
 - **[Sitio Web](https://Leonardo291024.github.io/Frontend_Mentor/24-contact-form)**
 
 - **[Repositorio](https://github.com/Leonardo291024/Frontend_Mentor/tree/main/24-contact-form)*
