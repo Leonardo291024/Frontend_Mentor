@@ -10,4 +10,4 @@
 - **Ver mensajes de validación de formulario si algún campo está incompleto.**
 - **Ver el diseño óptimo para la interfaz según el tamaño de la pantalla de su dispositivo.**
 
-[](../25-calculadora-de-hipoteca/images/calculadora-hipoteca.png)
+![](../25-calculadora-de-hipoteca/images/calculadora-hipoteca.png)
